@@ -53,6 +53,10 @@ body, form, ul, table {
   border-bottom: 1px solid #e5e5e5;
 }
 
+.jumbotron h2 {
+  font-size: 4rem;
+}
+
 /* Supporting marketing content */
 .marketing {
   margin: 35px 0;
