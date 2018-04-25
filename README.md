@@ -45,6 +45,6 @@ Add `{:distillery, "~> 1.5.2", runtime: false}` to `mix.exs`
 
     mix deps.get
     mix release.init
-    mix release
+    MIX_ENV=prod mix release --env=prod
 
-Sources: https://hexdocs.pm/distillery/walkthrough.html
+Sources: https://hexdocs.pm/distillery/walkthrough.html, https://hexdocs.pm/distillery/use-with-phoenix.html
