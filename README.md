@@ -38,3 +38,13 @@ Run REPL with project dependencies loaded
 Run a script
 
     mix run parse_json.exs
+
+## Deployment
+
+Add `{:distillery, "~> 1.5.2", runtime: false}` to `mix.exs`
+
+    mix deps.get
+    mix release.init
+    mix release
+
+Sources: https://hexdocs.pm/distillery/walkthrough.html
